@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Neibue/doftool#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "joi": "^17.3.0"
+    "joi": "^17.3.0",
+    "mongoose": "^5.10.11"
   }
 }
