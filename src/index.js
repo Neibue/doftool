@@ -6,7 +6,7 @@ const express = require('express');
 const app = express();
 
 mongoose.connect('mongodb://localhost/dofus-scraper', {useNewUrlParser: true, useUnifiedTopology: true})
-    .then('Connected to database...')
+    .then(console.log('Connected to database...'))
     .catch(err => new Error(err));
 
 app.use(express.json());
